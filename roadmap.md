@@ -1,103 +1,101 @@
-## Sprint 1: Foundation & Version Control (Days 01-14)
-Day 01: Introduction to DevOps Culture, 2026 Roadmap, and Environment Setup
-Day 02: Linux Ecosystem: Core Architecture and Basic Command Line Operations
-Day 03: Advanced Linux Navigation: Manipulating Files and Searching Text
-Day 04: Introduction to Shell Scripting: Variables, Core Operations, and Scripting Basics
-Day 05: Advanced Shell Scripting: Conditionals, Loops, and Automation Tools
-Day 06: Mastering Linux Security: User Management, File Permissions, and ACLs
-Day 07: System Engineering Basics: Managing Linux Services via systemd/systemctl
-Day 08: Git Fundamentals: Version Control Systems, Centralized vs. Distributed
-Day 09: Git Configuration: Creating Repositories, Managing Branches, and Tracking
-Day 10: Advanced Git Workflows: Mastering Branching, Merging Strategy, and Stashing
-Day 11: Deep-Dive Git Surgery: Resolving Conflicts, Reverting, Resetting, and Rebasing
-Day 12: Open Source Workflow: Structuring Proof-of-Work and Git Cheatsheet
-Day 13: Python Foundations: Environment Setup, Variables, and Core Paradigms
-Day 14: Python Data Structures: Hands-On with Lists, Dicts, and Conditionals
+## Linux Fundamentals & Networking (Days 01-15)
+Day 01: Introduction to DevOps and Cloud
+Day 02: Linux Architecture, Processes, and systemd
+Day 03: Linux Commands Practice
+Day 04: Linux Practice: Processes and Services
+Day 05: Linux Troubleshooting Drill: CPU, Memory, and Logs
+Day 06: Linux Fundamentals: Read and Write Text Files
+Day 07: Linux File System Hierarchy and Scenario-Based Practice
+Day 08: Cloud Server Setup: Docker, Nginx and Web Deployment
+Day 09: Linux User and Group Management Challenge
+Day 10: File Permissions and File Operations Challenge
+Day 11: File Ownership Challenge (chown and chgrp)
+Day 12: Breather and Revision (Days 01-11)
+Day 13: Linux Volume Management (LVM)
+Day 14: Networking Fundamentals and Hands-on Checks
+Day 15: Networking Concepts: DNS, IP, Subnets and Ports
 
-## Sprint 2: Scripting & Containerization (Days 15-28)
-Day 15: Automation Modules: Leveraging Python Packages to Parse JSON/YAML and System Tasks
-Day 16: Containerization Concept: Docker Architecture, Components, and First Container
-Day 17: Project Day: Writing Production-Grade Dockerfiles for Web Applications
-Day 18: Multi-Container Orchestration: Deep-Dive into Docker Compose and YAML Syntax
-Day 19: Persistent Storage: Designing and Managing Independent Container Volumes
-Day 20: Enterprise Container Networking, Security Hardening, and Alternative Engines
-Day 21: Review & Consolidation: Tackling Core Docker Interview Scenarios
-Day 22: Distributed Build Automation: Setting Up Jenkins Master-Agent Nodes
-Day 23: Task Orchestration: Mastering Jenkins Freestyle Projects and Automation Triggers
-Day 24: Hands-On CI Project: Setting up an End-to-End Build Pipeline for a NodeJS App
-Day 25: Pipeline as Code: Writing Jenkins Declarative Pipelines vs. Scripted Pipelines
-Day 26: Containerized Pipelines: Integrating Docker Inside Jenkins for Sandbox Execution
-Day 27: Jenkins Agents: Scale Out Execution Targets and Optimizing Pipeline Infrastructure
-Day 28: Advanced CI Integrations: Webhooks, Automated SCM Triggers, and Status Reports
+## Shell Scripting & Version Control (Days 16-28)
+Day 16: Shell Scripting Basics
+Day 17: Shell Scripting: Loops, Arguments and Error Handling
+Day 18: Shell Scripting: Functions and Intermediate Concepts
+Day 19: Shell Scripting Project: Log Rotation, Backup and Crontab
+Day 20: Bash Scripting Challenge: Log Analyzer and Report Generator
+Day 21: Shell Scripting Cheat Sheet: Build Your Own Reference Guide
+Day 22: Introduction to Git: Your First Repository
+Day 23: Git Branching and Working with GitHub
+Day 24: Advanced Git: Merge, Rebase, Stash and Cherry Pick
+Day 25: Git Reset vs Revert and Branching Strategies
+Day 26: GitHub CLI: Manage GitHub from Your Terminal
+Day 27: GitHub Profile Makeover: Build Your Developer Identity
+Day 28: Revision Day: Everything from Day 1 to Day 27
 
-## Sprint 3: Orchestration & Cloud Foundations (Days 29-42)
-Day 29: Engineering Review: Resolving High-Frequency Jenkins Interview Architecture Scenarios
-Day 30: Kubernetes Architecture Overview: Master-Worker Component Relationships
-Day 31: Local Cluster Operations: Bootstrapping Minikube and Launching Resilient Pods
-Day 32: Application Deployment: Creating Replicas with Auto-Healing and Native Scaling
-Day 33: Kubernetes Networking: Exposing Applications using ClusterIP, NodePort, and LoadBalancer
-Day 34: Configuration Decoupling: Managing Static Configurations using ConfigMaps
-Day 35: Secrets Management: Injecting Encrypted Sensitive Data securely into Pods
-Day 36: Storage Provisioning: Persistent Volumes (PV), Claims (PVC), and Stateful Data Architecture
-Day 37: Orchestration Review: Breaking Down Real-World Production Kubernetes Interview Questions
-Day 38: Global Cloud Footprint: Introduction to AWS Core Infrastructure and Resource Providers
-Day 39: Security Policies: Mastering Identity & Access Management (IAM) Users, Groups, and Roles
-Day 40: Elastic Computing: Launching EC2 Compute Instances and Automating Setup via User Data
-Day 41: Traffic Engineering: Building Highly Available Infrastructure using ALBs
-Day 42: Command-Line Automation: Provisioning Cloud Resources via the AWS CLI
+## Containerization & Continuous Integration (Days 29-49)
+Day 29: Introduction to Docker
+Day 30: Docker Images and Container Lifecycle
+Day 31: Dockerfile: Build Your Own Images
+Day 32: Docker Volumes and Networking
+Day 33: Docker Compose: Multi-Container Basics
+Day 34: Docker Compose: Real-World Multi-Container Apps
+Day 35: Multi-Stage Builds and Docker Hub
+Day 36: Docker Project: Dockerize a Full Application
+Day 37: Docker Revision and Cheat Sheet
+Day 38: YAML Basics
+Day 39: What is CI/CD?
+Day 40: Your First GitHub Actions Workflow
+Day 41: Triggers and Matrix Builds
+Day 42: Runners: GitHub-Hosted and Self-Hosted
+Day 43: Jobs, Steps, Env Vars and Conditionals
+Day 44: Secrets, Artifacts and Running Real Tests in CI
+Day 45: Docker Build and Push in GitHub Actions
+Day 46: Reusable Workflows and Composite Actions
+Day 47: Advanced Triggers: PR Events, Cron Schedules and Event-Driven Pipelines
+Day 48: GitHub Actions Project: End-to-End CI/CD Pipeline
+Day 49: DevSecOps: Add Security to Your CI/CD Pipeline
 
-## Sprint 4: Cloud Native CI/CD & Configuration Management (Days 43-56)
-Day 43: Unstructured Storage: Object Storage with AWS S3, Access Control, and Lifecycle Policies
-Day 44: Cloud Data Management: Deploying AWS RDS Relational Databases and Linking WordPress
-Day 45: Infrastructure Observability: Setting Up AWS CloudWatch Metrics, Log Groups, and Alarms
-Day 46: Microservice Platforms: Deploying Serverless Containers on AWS ECS
-Day 47: Cloud DevOps Interview Strategy: Architectural Best-Practices Q&A Discussion
-Day 48: Cloud-Native SCM: Initializing Code Repositories on AWS CodeCommit
-Day 49: Automated Cloud Builds: Compiling Software and Executing Unit Tests on AWS CodeBuild
-Day 50: Cloud Deployment Engines: Deploying Application Packages Safely using AWS CodeDeploy
-Day 51: Complete Delivery Loops: Orchestrating an End-to-End Pipeline on AWS CodePipeline
-Day 52: Project AWS Pipeline: Constructing a Functional CodeCommit-to-S3 Deployment Engine
-Day 53: Cloud Native Capstone: Final Validation and Audit of Your AWS CI/CD Pipeline Build
-Day 54: Intro to Infrastructure as Code (IaC) and Configuration Management Concepts
-Day 55: Ansible Node Architecture: Bootstrapping a Control Node and Managing Target Inventories
-Day 56: Ad-Hoc Execution: Running Single Tasks, Connectivity Pings, and Uptime Verifications
+## Orchestration & Configuration Management (Days 50-72)
+Day 50: Kubernetes Architecture and Cluster Setup
+Day 51: Kubernetes Manifests and Your First Pods
+Day 52: Kubernetes Namespaces and Deployments
+Day 53: Kubernetes Services
+Day 54: Kubernetes ConfigMaps and Secrets
+Day 55: Persistent Volumes (PV) and Persistent Volume Claims (PVC)
+Day 56: Kubernetes StatefulSets
+Day 57: Resource Requests, Limits, and Probes
+Day 58: Metrics Server and Horizontal Pod Autoscaler (HPA)
+Day 59: Helm -- Kubernetes Package Manager
+Day 60: Capstone: Deploy WordPress + MySQL on Kubernetes
+Day 61: Introduction to Terraform and Your First AWS Infrastructure
+Day 62: Providers, Resources and Dependencies
+Day 63: Variables, Outputs, Data Sources and Expressions
+Day 64: Terraform State Management and Remote Backends
+Day 65: Terraform Modules: Build Reusable Infrastructure
+Day 66: Provision an EKS Cluster with Terraform Modules
+Day 67: TerraWeek Capstone: Multi-Environment Infrastructure with Workspaces and Modules
+Day 68: Introduction to Ansible and Inventory Setup
+Day 69: Ansible Playbooks and Modules
+Day 70: Variables, Facts, Conditionals and Loops
+Day 71: Roles, Galaxy, Templates and Vault
+Day 72: Ansible Project: Automate Docker and Nginx Deployment
 
-## Sprint 5: Infrastructure as Code (IaC) Masterclass (Days 57-70)
-Day 57: Deep-Dive: Exploring Advanced Configuration Scenarios via Video Explanations
-Day 58: Declarative States: Constructing Ansible Playbooks, Structuring Roles, and Variables
-Day 59: Ansible Project Day: Auto-Provisioning a High-Performance Nginx Web App on EC2 Nodes
-Day 60: Declarative Tooling: Intro to Terraform and Launching Your First EC2 Resource Block
-Day 61: Lifecycle Tracking: Utilizing Essential Terraform State Commands (init, plan, apply)
-Day 62: Provider Configuration: Integrating the Terraform Docker Provider via HCL Resource Blocks
-Day 63: Parameterization: Driving Dry Infrastructure Deployments via Input and Output Variables
-Day 64: AWS Integration: Writing Multi-Resource Dependable Infrastructure Templates
-Day 65: Cloud IaC Project: Building an Complete AWS Virtual Private Cloud Infrastructure via Terraform
-Day 66: Persistent Cloud Storage: Automating AWS S3 Creation, Encryption, and ACL Rules via HCL
-Day 67: Scaling Strategies: Leveraging Counts, Loops, and Dynamic Resource Instantiations
-Day 68: Meta-Arguments: Mastering Complex HCL Directives (depends_on, count, for_each)
-Day 69: Reusable Blueprints: Building Component Libraries using Custom Terraform Modules
-Day 70: State Security: Configuring Remote Backend Storage with Lock Locking Mechanisms
+## Observability, Packaging & GitOps (Days 73-86)
+Day 73: Introduction to Observability and Prometheus
+Day 74: Node Exporter, cAdvisor, and Grafana Dashboards
+Day 75: Log Management with Loki and Promtail
+Day 76: OpenTelemetry and Alerting
+Day 77: Observability Project: Full Stack with Docker Compose
+Day 78: Introduction to Helm and Chart Basics
+Day 79: Creating a Custom Helm Chart for AI-BankApp
+Day 80: Helm Project: Multi-Environment Deployment and CI/CD
+Day 81: Introduction to Amazon EKS with Terraform
+Day 82: EKS Networking with Gateway API and Persistent Storage
+Day 83: EKS Project: Production Deployment of AI-BankApp
+Day 84: Introduction to GitOps and ArgoCD
+Day 85: ArgoCD Deep Dive: Sync Strategies, Rollbacks, and Multi-App Management
+Day 86: GitOps Project: End-to-End CI/CD Pipeline with AI-BankApp
 
-## Sprint 6: Observability & Capstone Projects (Days 71-84)
-Day 71: Platform Readiness Evaluation: Facing Toughest Production-Style Terraform Questions
-Day 72: Systems Observability Theory: Grafana Architecture, Data Sources, and Telemetry
-Day 73: Grafana Node Installation: Deploying and Securing Grafana Dashboard Server on AWS EC2
-Day 74: Metrics Integration: Hooking System Metrics directly from Cloud Hosts to Grafana Server
-Day 75: Container Log Scraping: Directing Real-Time Multi-Container Docker Logs to Grafana Views
-Day 76: Dashboard Design: Assembling Custom Production-Grade Dashboards and Panels
-Day 77: Warning Engineering: Creating Proactive Alerting Threshold Routing Mechanisms inside Grafana
-Day 78: Distributed Observability: Setting Up Grafana Cloud Accounts and Routing AWS Billing Alarms
-Day 79: Metric Gathering Mastery: Prometheus Server Architecture, TSDB, and Scrape Targets
-Day 80: Project 01: End-to-End Enterprise CI/CD Pipeline Deployment Using Jenkins and GitHub Hooks
-Day 81: Project 02: Advanced App Orchestration with Jenkins Declarative Syntax Pipeline-As-Code
-Day 82: Project 03: Static Enterprise Web Deployment to High-Availability Cloud via AWS S3
-Day 83: Project 04: High-Availability Workload Management on AWS Nodes using Docker Swarm Clustering
-Day 84: Project 05: Production Microservice Delivery: Deploying a Multi-Tier Application Clone inside K8s
-
-## Sprint 7: Hardening, AI Integration & Closure (Days 85-90)
-Day 85: Project 06: Serverless Container Deployment Pipeline using AWS ECS Fargate and AWS ECR
-Day 86: Project 07: Event-Driven Cloud Deployment Automation utilizing GitHub Actions Workflows to AWS
-Day 87: Project 08: Production Cluster Architecture: Bootstrapping a Django Todo App on Kubeadm Cluster
-Day 88: Project 09: Scalable Storage Systems: Mounting AWS S3 Buckets directly onto Linux EC2 via S3FS
-Day 89: Project 10: Multi-Tier Orchestration: Deploying an Agentic AI Tooling System for DevOps
-Day 90: The Grand Finale: Public Portfolio Review, Repository Audit, and Interview Prep Kick-Off
+## Agentic AI & Closure (Days 87-90)
+Day 87: Introduction to Agentic AI for DevOps
+Day 88: Multi-Tool Agents, MCP, and CI/CD Analyzer
+Day 89: Production AI Agents: KubeHealer and AIOps
+Day 90: Grand Finale: The Complete DevOps Journey
